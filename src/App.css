@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+.device-grid .ag-root-wrapper {
+    border: none;
+}
+
+.device-grid .ag-header {
+    background-color: #00446d;
+    border-radius: 4px 4px 0 0;
+}
+
+.device-grid .ag-header-cell {
+    color: white;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.device-grid .ag-header-cell-label {
+    justify-content: center;
+}
+
+.device-grid .ag-row {
+    background-color: white;
+    border: none;
+    box-shadow: 0 2px 4px rgb(15 23 42 / 8%);
+    margin-bottom: 5px;
+}
+
+.device-grid .ag-cell {
+    border: none;
+    font-size: 10px;
+    color: #4b5563;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.device-grid .ag-cell.actions-cell {
+    justify-content: flex-end;
+    padding-right: 18px;
+}
+
+.device-grid .ag-cell.actions-cell > .flex {
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.device-grid .ag-center-cols-viewport,
+.device-grid .ag-body-viewport {
+    background-color: #f1f5f9;
+}
